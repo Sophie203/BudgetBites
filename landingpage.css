@@ -7,7 +7,7 @@
 }
 
 .hero {
-  background-image: url(/Landingpage_image-1.png);
+  background-image: url(../Landingpage_image-1.png);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
