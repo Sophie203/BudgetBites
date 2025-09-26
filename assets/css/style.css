@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *,
 *::before,
 *::after {
@@ -317,3 +318,324 @@
   pointer-events: none;
 }
 /* ...existing code... */
+=======
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-image: url(../assets/img/Bagrundsbillede.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+}
+.logo {
+  height: 150px;
+  margin-left: 123px;
+  padding-top: 40px;
+}
+
+.header-btn {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  padding: 0.7em 1.3em;
+  text-decoration: none;
+  border-radius: 3em;
+  background-color: #f8e37b;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  right: 123px;
+  color: black;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-top: auto;
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  padding-top: 80px;
+  padding-left: 310px;
+  padding-right: 310px;
+  color: white;
+  text-align: center;
+}
+
+.hero p {
+  margin-bottom: auto;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  padding-left: 470px;
+  padding-right: 470px;
+  color: white;
+  text-align: center;
+}
+
+.Knap-btn {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  padding: 0.9em 1.6em;
+  text-decoration: none;
+  border-radius: 3em;
+  background-color: #ebcd38;
+  border: none;
+  cursor: pointer;
+  margin-left: 650px;
+  color: black;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-2 {
+  width: 600px;
+  height: 149px;
+  background: #f2f1ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+}
+
+.hero-3 {
+  width: 600px;
+  height: 149px;
+  background: #eae9e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+}
+
+.hero-4 {
+  width: 600px;
+  height: 149px;
+  background: #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+}
+/* ...existing code... */
+
+.pattern-page {
+  background-image: url(../assets/img/Monster.svg);
+  width: 100%;
+  background-repeat: repeat;
+  background-size: cover;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.baggrund-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  background: none;
+  border: none;
+}
+
+.center-box {
+  background: #fff;
+  border-radius: 60px;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.04);
+  padding: 60px 60px 100px 60px;
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-box h1 {
+  font-size: 56px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #111;
+  text-align: center;
+  margin-bottom: 32px;
+  line-height: 1.1;
+}
+
+.center-box p {
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #111;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.big-buy-btn {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  padding: 0.9em 1.6em;
+  text-decoration: none;
+  border-radius: 3em;
+  background-color: #ebcd38;
+  border: none;
+  cursor: pointer;
+  color: #111;
+  transition: background 0.2s;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.big-text {
+  font-size: 50px !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #111;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.icon-section {
+  background: #faf5d6;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 60px 0 80px 0;
+  width: 100%;
+}
+
+.icon-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  flex: 1;
+}
+
+.icon-img {
+  width: 600px;
+  height: 400px;
+  margin-bottom: 32px;
+}
+
+.icon-feature h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 28px;
+  color: #111;
+  text-align: center;
+}
+
+.icon-feature p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #222;
+  text-align: center;
+}
+
+.book-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: #fff;
+  padding: 80px 0 40px 0;
+  gap: 40px;
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+}
+
+.book-left {
+  flex: 0 0 370px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-left: 80px;
+}
+
+.book-book {
+  width: 340px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.book-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 30px;
+  position: relative;
+}
+
+.book-right h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 24px;
+  max-width: 600px;
+}
+
+.book-right p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #222;
+  margin-bottom: 36px;
+  max-width: 500px;
+}
+
+.book-right .big-buy-btn {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  padding: 0.9em 1.6em;
+  text-decoration: none;
+  border-radius: 3em;
+  background-color: #ebcd38;
+  border: none;
+  cursor: pointer;
+  color: #111;
+  transition: background 0.2s;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.book-plane {
+  width: 420px;
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+/* ...existing code... */
+>>>>>>> 382f6235da7c24b0c4964ad1fdc4bc0df9085501
